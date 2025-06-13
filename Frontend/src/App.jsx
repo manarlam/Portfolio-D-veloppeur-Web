@@ -12,22 +12,24 @@ import {
   Navigate
 } from "react-router-dom";
 import "./styles/style.css";
-import "./styles/App.scss";
+import "./styles/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
 
   return (
     <Router>
+      <div className="App">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
+          <Route path="/" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
+      </div>
     </Router>
   );
 }
