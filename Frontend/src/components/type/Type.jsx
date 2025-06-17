@@ -8,7 +8,7 @@ function Type() {
         strings: [
           "Développeuse Web",
           "Freelancer",
-          "Graphiste",
+          "Designer",
         ],
         autoStart: true,
         loop: true,

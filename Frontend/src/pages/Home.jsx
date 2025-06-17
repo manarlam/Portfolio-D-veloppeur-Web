@@ -1,19 +1,19 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import Projects from "../components/projects/Projects";
+import About from "../components/about/About";
 import homeLogo from "../assets/images/home_main.png";
 import Type from "../components/type/Type";
 import { Container, Row, Col } from "react-bootstrap";
-import "../styles/index.css"; // ou le chemin de ton fichier CSS
+import "../styles/index.css";
 
 function Home() {
 
   const location = useLocation();
 
     useEffect(() => {
-      if (location.hash === "#projects") {
-        const el = document.getElementById("projects");
+      if (location.hash === "#about") {
+        const el = document.getElementById("about");
         if (el) {
           el.scrollIntoView({ behavior: "smooth" });
         }
@@ -38,7 +38,7 @@ function Home() {
               <Type />
               </div>
             </Col>
-            <Col md={5} style={{ paddingBottom: 40 }}>
+            <Col md={4} style={{ paddingBottom: 40 }}>
               <img
                 src={homeLogo}
                 alt="home pic"
@@ -50,13 +50,11 @@ function Home() {
         </Container>
       </Container>
 
-      <Container fluid className="project-section" id="projects">
-        <Container>
+      <Container fluid className="about-section" id="about">
           <Row>
-            <Projects />
+            <About />
           </Row>
         </Container>
-      </Container>
     </section>
   );
 }

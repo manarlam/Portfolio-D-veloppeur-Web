@@ -1,0 +1,37 @@
+[
+  {
+    "imgPath": "kasa",
+    "title": "Kasa - Agence Immobilière",
+    "description": "Création d'un site web pour une agence immobilière avec React.",
+    "ghLink": "https://github.com/manarlam/Kasa_Agence_Immobiliere?tab=readme-ov-file",
+    "demoLink": "https://manarlam.github.io/Kasa_Agence_Immobiliere/"
+  },
+  {
+    "imgPath": "bluel",
+    "title": "Sophie Bluel - Architecte",
+    "description": "Création d'un portfolio interactif avec Javascript en établissant une communication avec une API.",
+    "ghLink": "https://github.com/manarlam/Sophie_Bluel_Portfolio",
+    "demoLink": ""
+  },
+  {
+    "imgPath": "booki",
+    "title": "Booki - Agence de voyage",
+    "description": "Développement d'un site web avec HTML et CSS.",
+    "ghLink": "https://github.com/manarlam/Project_Booki?tab=readme-ov-file",
+    "demoLink": "https://manarlam.github.io/Project_Booki/"
+  },
+  {
+    "imgPath": "nina",
+    "title": "Nina Carducci - Photographe",
+    "description": "Amélioration des performances et du référencement.",
+    "ghLink": "https://github.com/manarlam/Portfolio_Nina_Carducci?tab=readme-ov-file",
+    "demoLink": "https://manarlam.github.io/Portfolio_Nina_Carducci/"
+  },
+  {
+    "imgPath": "grimoire",
+    "title": "Mon Vieux Grimoire",
+    "description": "Développement du backend d'un site de notations de livres.",
+    "ghLink": "https://github.com/manarlam/Le_Vieux_Grimoire",
+    "demoLink": ""
+  }
+]

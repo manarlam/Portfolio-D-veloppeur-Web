@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/Home";
-import About from "./pages/About";
+import About from "./components/about/About";
 import Projects from "./components/projects/Projects";
 import Footer from "./components/footer/Footer";
-import Resume from "./components/resume/Resume";
+import Contact from "./components/contact/Contact";
 import {
   BrowserRouter as Router,
   Route,
@@ -23,9 +23,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/" element={<Projects />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/project" element={<Projects />} />
+          <Route path="/" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
