@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import portrait from "../../assets/images/portrait.png";
-import Collapse from "../../components/collapse/Collapse";
+import Collapse from "../collapse/Collapse";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
