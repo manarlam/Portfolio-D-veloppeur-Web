@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Cards from "../card/Card";
 import projectsData from "../../data/data.json";
-import kasa from "../../assets/images/projects/kasa.PNG";
+import kasa from "../../assets/images/projects/kasa.png";
 import bluel from "../../assets/images/projects/bluelcoub.PNG";
-import booki from "../../assets/images/projects/booki.PNG";
+import booki from "../../assets/images/projects/booki.png";
 import nina from "../../assets/images/projects/nina.PNG";
-import grimoire from "../../assets/images/projects/grimoire.PNG";
+import grimoire from "../../assets/images/projects/grimoire.png";
 
 const images = {
   kasa,
