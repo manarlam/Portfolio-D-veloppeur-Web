@@ -22,7 +22,7 @@ function Projects() {
       <Container>
         <h1 className="project-heading">Projets scolaires</h1>
         <p style={{ color: "#3d4b2d" }}>
-          Projets sur lesquels j'ai travaillé en autonomie durant ma formation Développeur Web - Test
+          Projets sur lesquels j'ai travaillé en autonomie durant ma formation Développeur Web
         </p>
       </Container>
       <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
