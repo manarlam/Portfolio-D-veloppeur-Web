@@ -35,7 +35,7 @@ function Contact() {
   return (
     <>
       <Head>
-        <title>Contact| Mon Portfolio</title>
+        <title> Contact | Mon Portfolio</title>
         <meta name="description" content="Portfolio de Manar Lamrani - Développeuse Web Full Stack" />
         <meta name="keywords" content="Développeur, React, Javascript, HTML, CSS, Node.js, Express, API Next.js, Manar Lamrani, Web" />
         <meta name="author" content="Manar Lamrani" />
