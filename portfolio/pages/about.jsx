@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import portrait from "../../assets/images/portrait.png";
-import Collapse from "../collapse/Collapse";
+import Image from "next/image";
+import Link from "next/link";
+import Collapse from "../components/collapse/Collapse";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -13,7 +14,12 @@ function About() {
       <Container>
         <Row>
           <Col md={4} className="myAvtar">
-            <img src={portrait} className="img-fluid" alt="avatar" />
+            <Image 
+                src="/images/portrait.png" 
+                className="img-fluid" 
+                alt="avatar" 
+                width={500} 
+                height={500} />
           </Col>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>À propos de moi</h1>
@@ -81,9 +87,7 @@ function About() {
                 <h1>Liens sociaux</h1>
                 <p>
                     N'hésitez pas à me{" "}
-                <a href="/contact" className="green">
-                    contacter
-                </a>
+                <Link href="/contact" className="green">contacter</Link>
                 </p>
                 <ul className="home-about-social-links">
                     <li className="social-icons">

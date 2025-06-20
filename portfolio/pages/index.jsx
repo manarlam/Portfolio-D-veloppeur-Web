@@ -1,24 +1,25 @@
 import React from 'react';
 import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
-import About from "../components/about/About";
-import homeLogo from "../assets/images/home_main.png";
+import About from "./about";
+import Image from "next/image";
 import Type from "../components/type/Type";
 import { Container, Row, Col } from "react-bootstrap";
-import "../styles/index.css";
+import { useRouter } from "next/router";
 
 function Home() {
 
-  const location = useLocation();
+  const router = useRouter();
 
     useEffect(() => {
-      if (location.hash === "#about") {
-        const el = document.getElementById("about");
-        if (el) {
-          el.scrollIntoView({ behavior: "smooth" });
-        }
-      }
-    }, [location]);
+  if (router.asPath.includes("#about")) {
+    const el = document.getElementById("about");
+    if (el) {
+      setTimeout(() => {
+        el.scrollIntoView({ behavior: "smooth" });
+      }, 0); // Laisse le temps au DOM de se charger
+    }
+  }
+}, [router.asPath]);
 
 
   return (
@@ -39,11 +40,12 @@ function Home() {
               </div>
             </Col>
             <Col md={4} style={{ paddingBottom: 40 }}>
-              <img
-                src={homeLogo}
+              <Image
+                src="/images/home_main.png"
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                width={450}
+                height={450}
               />
             </Col>
           </Row>
