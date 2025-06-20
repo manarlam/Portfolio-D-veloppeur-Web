@@ -49,6 +49,7 @@ function Home() {
               <h1 className="heading-name">
                 Je suis 
                 <strong className="main-name"> Manar LAMRANI</strong>
+                <span className="phoneTitle">Développeuse Web Fullstack</span>
               </h1>
               <div style={{ paddingLeft: 100, paddingTop: 40, textAlign: "left" }}>
               <Type />
@@ -58,7 +59,7 @@ function Home() {
               <Image
                 src="/images/home_main.png"
                 alt="home pic"
-                className="img-fluid"
+                className="homeimg img-fluid"
                 width={450}
                 height={450}
               />

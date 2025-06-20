@@ -162,6 +162,10 @@
   padding-left: 100px !important;
 }
 
+.phoneTitle {
+  display: none;
+}
+
 .main-name {
   color: #79915e;
 }
@@ -177,13 +181,26 @@
 }
 
 @media (max-width: 767px) {
+  .home-header {
+    font-size: 1.8em !important;
+  }
+
+  .phoneTitle {
+    display: block;
+    font-size: 0.6em !important;
+    padding-top: 20px;
+  }
   .Typewriter__wrapper {
-    font-size: 1.4em !important;
-    font-weight: 500 !important;
-    position: absolute !important;
+    display: none;
   }
   .Typewriter__cursor {
-    display: none !important;
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .homeimg{
+      display: none;
   }
 }
 
