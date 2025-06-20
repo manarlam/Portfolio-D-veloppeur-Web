@@ -5,6 +5,7 @@ import Image from "next/image";
 import Type from "../components/type/Type";
 import { Container, Row, Col } from "react-bootstrap";
 import { useRouter } from "next/router";
+import Head from 'next/head';
 
 function Home() {
 
@@ -23,6 +24,20 @@ function Home() {
 
 
   return (
+      <>
+      <Head>
+        <title>Accueil | Mon Portfolio</title>
+        <meta name="description" content="Portfolio de Manar Lamrani - Développeuse Web Full Stack" />
+        <meta name="keywords" content="Développeur, React, Javascript, HTML, CSS, Node.js, Express, API Next.js, Manar Lamrani, Web" />
+        <meta name="author" content="Manar Lamrani" />
+        <meta property="og:title" content="Portfolio Manar Lamrani" />
+        <meta property="og:description" content="Découvrez mon parcours et mes projets." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/images/portrait.png" />
+        <meta property="og:url" content="https://tonsite.com/" />
+        <meta name="robots" content="index, follow" />
+      </Head>
+
     <section>
       <Container fluid className="home-section wave-background" id="home">
         <Container className="home-content">
@@ -58,6 +73,7 @@ function Home() {
           </Row>
         </Container>
     </section>
+    </>
   );
 }
 

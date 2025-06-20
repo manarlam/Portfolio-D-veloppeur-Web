@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://tonsite.com
+
+# Sitemaps
+Sitemap: https://tonsite.com/sitemap.xml
