@@ -34,7 +34,7 @@ function Home() {
         <meta property="og:description" content="Découvrez mon parcours et mes projets." />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/images/portrait.png" />
-        <meta property="og:url" content="https://tonsite.com/" />
+        <meta property="og:url" content="https://manarlamrani.vercel.app/" />
         <meta name="robots" content="index, follow" />
       </Head>
 

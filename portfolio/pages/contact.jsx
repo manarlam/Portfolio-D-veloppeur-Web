@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { Form, Button, Container } from "react-bootstrap";
 import emailjs from "emailjs-com";
+import Head from 'next/head';
 
 function Contact() {
   const form = useRef();
@@ -32,6 +33,19 @@ function Contact() {
   };
 
   return (
+    <>
+      <Head>
+        <title>Contact| Mon Portfolio</title>
+        <meta name="description" content="Portfolio de Manar Lamrani - Développeuse Web Full Stack" />
+        <meta name="keywords" content="Développeur, React, Javascript, HTML, CSS, Node.js, Express, API Next.js, Manar Lamrani, Web" />
+        <meta name="author" content="Manar Lamrani" />
+        <meta property="og:title" content="Portfolio Manar Lamrani" />
+        <meta property="og:description" content="Découvrez mon parcours et mes projets." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/images/portrait.png" />
+        <meta property="og:url" content="https://manarlamrani.vercel.app/" />
+        <meta name="robots" content="index, follow" />
+      </Head>
     <section className="contact-section">
       <Container className="contact-form mt-5">
         <h2 className="mb-4">Me contacter</h2>
@@ -72,6 +86,7 @@ function Contact() {
         </Form>
       </Container>
     </section>
+    </>
   );
 }
 
