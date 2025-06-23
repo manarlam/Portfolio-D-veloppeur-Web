@@ -394,9 +394,14 @@
 }
 .project-heading {
   color: #3d4b2d !important;
-  font-size: 2.3em !important;
+  font-size: 2.6em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
+  padding-bottom: 20px !important;
+}
+
+.project-content {
+  padding-bottom: 20px !important;
 }
 
 /* Contact*/

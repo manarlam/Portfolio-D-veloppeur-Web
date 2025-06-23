@@ -35,7 +35,7 @@ function Projects() {
     <Container fluid className="project-section">
       <Container>
         <h1 className="project-heading">Projets scolaires</h1>
-        <p style={{ color: "#3d4b2d" }}>
+        <p style={{ color: "#3d4b2d" }}className="project-content">
           Projets sur lesquels j'ai travaillé en autonomie durant ma formation Développeur Web
         </p>
       </Container>

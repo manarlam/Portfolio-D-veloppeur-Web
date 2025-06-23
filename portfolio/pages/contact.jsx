@@ -48,7 +48,7 @@ function Contact() {
       </Head>
     <section className="contact-section">
       <Container className="contact-form mt-5">
-        <h2 className="mb-4">Me contacter</h2>
+        <h1 style={{ fontSize: "2.6em" }} className="mb-4">Me contacter</h1>
         <Form ref={form} onSubmit={sendEmail}>
           <Form.Group controlId="formNom">
             <Form.Label>Nom</Form.Label>

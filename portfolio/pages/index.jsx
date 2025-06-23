@@ -43,15 +43,15 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+              <h1 style={{ paddingBottom: 25 }} className="heading">
                 Hello !
               </h1>
-              <h1 className="heading-name">
+              <h2 className="heading-name">
                 Je suis 
                 <strong className="main-name"> Manar LAMRANI</strong>
                 <span className="phoneTitle">Développeuse Web Fullstack</span>
-              </h1>
-              <div style={{ paddingLeft: 100, paddingTop: 40, textAlign: "left" }}>
+              </h2>
+              <div style={{ paddingLeft: 100, paddingTop: 25, textAlign: "left" }}>
               <Type />
               </div>
             </Col>
