@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://tonsite.com
+Host: https://manarlamrani.vercel.app
 
 # Sitemaps
-Sitemap: https://tonsite.com/sitemap.xml
+Sitemap: https://manarlamrani.vercel.app/sitemap.xml
