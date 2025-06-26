@@ -23,6 +23,27 @@ function Cards(props) {
           {props.description}
         </Card.Text>
 
+        {props.skills && props.skills.length > 0 && (
+          <div className="d-flex flex-wrap justify-content-center gap-2 mt-2 mb-3">
+            {props.skills.map((skill, idx) => (
+              <span
+                key={idx}
+                 className="text-white rounded d-flex align-items-center justify-content-center"
+                style={{
+                  backgroundColor: "#b0b988",
+                  fontSize: "0.9rem",
+                  padding: "0.4em 0.75em",
+                  minHeight: "32px",
+                  minWidth: "60px",
+                  fontWeight: 500
+                }}a
+              >
+                {skill}
+              </span>
+            ))}
+          </div>
+)}
+
         <div className="mt-auto">
           <Button variant="primary" href={props.ghLink} target="_blank">
             <BsGithub /> &nbsp;

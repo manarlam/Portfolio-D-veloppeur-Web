@@ -48,6 +48,7 @@ function Projects() {
             description={project.description}
             ghLink={project.ghLink}
             demoLink={project.demoLink}
+            skills={project.skills}
           />
         </Col>
       ))}

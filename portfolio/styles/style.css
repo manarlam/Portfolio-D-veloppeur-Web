@@ -387,14 +387,14 @@
 
 .btn-primary {
   color: #fff !important;
-  background-color: #b0b988 !important;
-  border-color: #b0b988 !important;
+  background-color: #3d4b2d!important;
+  border-color: #3d4b2d !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #cad3a9  !important;
-  border-color: #cad3a9  !important;
+  background-color: #7d8856  !important;
+  border-color: #7d8856  !important;
 }
 .btn:focus {
   outline: none !important;

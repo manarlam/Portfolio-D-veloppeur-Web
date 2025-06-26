@@ -2,36 +2,41 @@
   {
     "imgPath": "kasa",
     "title": "Kasa - Agence Immobilière",
-    "description": "Création d'un site web pour une agence immobilière avec React. ",
+    "description": "Création d'un site web pour une agence immobilière avec React. Mise en place des routes avec React Router et gestion des états avec des hooks React.",
     "ghLink": "https://github.com/manarlam/Kasa_Agence_Immobiliere?tab=readme-ov-file",
-    "demoLink": "https://manarlam.github.io/Kasa_Agence_Immobiliere/"
+    "demoLink": "https://manarlam.github.io/Kasa_Agence_Immobiliere/",
+    "skills": ["HTML", "CSS", "SASS","Javascript","React"," React Router"]
   },
   {
     "imgPath": "bluel",
     "title": "Sophie Bluel - Architecte",
-    "description": "Création d'un portfolio interactif avec Javascript en établissant une communication avec une API. Gestion d'événements et données utilisateurs",
+    "description": "Création d'un portfolio interactif avec Javascript en établissant une communication avec une API. Gestion d'événements et données utilisateurs. Développement de composants web 'from scratch' afin de consolider les compétences en Javascript.",
     "ghLink": "https://github.com/manarlam/Sophie_Bluel_Portfolio",
-    "demoLink": ""
+    "demoLink": "",
+    "skills" :["HTML", "CSS","Javascript"]
   },
   {
     "imgPath": "booki",
     "title": "Booki - Agence de voyage",
-    "description": "Développement d'un site web avec HTML et CSS conforme à la maquette. Intégration d'une interface responsive",
+    "description": "Développement d'un site web de réservation de voyage en utilisant HTML et CSS et en respectant la maquette Figma. Intégration de l'interface responsive desktop, tablette et mobile. Utilisation de Flexbox et Grid obligatoire.",
     "ghLink": "https://github.com/manarlam/Project_Booki?tab=readme-ov-file",
-    "demoLink": "https://manarlam.github.io/Project_Booki/"
+    "demoLink": "https://manarlam.github.io/Project_Booki/",
+    "skills" :["HTML", "CSS"]
   },
   {
     "imgPath": "nina",
     "title": "Nina Carducci - Photographe",
-    "description": "Débug, amélioration des performances et du référencement.",
+    "description": "Débug, amélioration des performances et du référencement. Optimisation des images et optimisation des scripts avec minify. Réduction du temps de chargements et ajout des balises métas.",
     "ghLink": "https://github.com/manarlam/Portfolio_Nina_Carducci?tab=readme-ov-file",
-    "demoLink": "https://manarlam.github.io/Portfolio_Nina_Carducci/"
+    "demoLink": "https://manarlam.github.io/Portfolio_Nina_Carducci/",
+    "skills" :["SEO", "Performance", "Accessibilité", "Référencement"]
   },
   {
     "imgPath": "grimoire",
     "title": "Mon Vieux Grimoire",
-    "description": "Développement du backend d'un site de notations de livres avec Node.js et Express. Mise en place des opérations CRUD de manière sécurisée",
+    "description": "Développement du backend d'un site de notations de livres avec Node.js et Express. Création d'une base de données sécurisée avec MongoDB et Mongoose. Mise en place des opérations CRUD de manière sécurisée. ",
     "ghLink": "https://github.com/manarlam/Le_Vieux_Grimoire",
-    "demoLink": ""
+    "demoLink": "",
+    "skills" :["NodeJs", "Express", "MongoDB", "API Rest"]
   }
 ]
