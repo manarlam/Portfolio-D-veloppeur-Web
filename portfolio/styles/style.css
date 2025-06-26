@@ -310,8 +310,9 @@
   text-decoration: underline;
 }
 
-.collapse-header h5{
+.collapse-header h3{
   color: #556137;
+  font-size: 20px !important;
   font-weight: bold;
   margin-top: 50px;
   cursor: pointer;
@@ -466,7 +467,7 @@
   }
 }
 
-.footer h3 {
+.footer h4 {
   font-size: 1em;
   color: white !important;
   margin-top: 0.5em !important;
