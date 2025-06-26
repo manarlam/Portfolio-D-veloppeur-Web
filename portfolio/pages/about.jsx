@@ -22,7 +22,7 @@ function About() {
                 height={500} />
           </Col>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>À propos de moi</h1>
+            <h2 style={{ fontSize: "2.6em" }}>À propos de moi</h2>
             <p className="home-about-body">
               Développeuse web full-stack, je suis animée par la création d’applications dynamiques et performantes. 
               Mon parcours m’a permis de maîtriser des technologies telles que <b className="green">HTML, CSS, Sass, Javascript, React, Bootstrap, Next.js, Node.js,
@@ -84,7 +84,7 @@ function About() {
     </div>
     </Col>
             <Col md={12} className="home-about-social">
-                <h1>Liens sociaux</h1>
+                <h2>Liens sociaux</h2>
                 <p>
                     N'hésitez pas à me{" "}
                 <Link href="/contact" className="green">contacter</Link>
