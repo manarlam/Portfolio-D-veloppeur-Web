@@ -11,8 +11,6 @@
   backdrop-filter: blur(15px) !important;
 }
 
-
-
 .logo {
   height: 1.4em !important;
   width: 2.5em !important;
@@ -137,7 +135,9 @@
 .navbar-nav .nav-item a:hover::after {
   width: 100%;
 }
-/* */ 
+
+/* Home */ 
+
 .home-header {
   padding-top: 50px !important;
 }
@@ -298,6 +298,8 @@
   color: white !important;
 }
 
+/* Collapse */
+
 .collapse-content {
   margin-top: 20px;
   max-height: 0;
@@ -341,6 +343,7 @@
   padding-left: 0;   
   transform: translateY(0);    
 }
+
 /* Projects */
 
 .project-section {
