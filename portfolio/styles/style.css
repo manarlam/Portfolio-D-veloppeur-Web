@@ -11,6 +11,8 @@
   backdrop-filter: blur(15px) !important;
 }
 
+
+
 .logo {
   height: 1.4em !important;
   width: 2.5em !important;
@@ -31,7 +33,7 @@
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #cbe276a9!important;
+  background-color: #617519a9!important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -78,11 +80,12 @@
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #51683ca9 !important;
+    background-color: #adbd88 !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
   }
+  
 }
 .navbar-brand {
   color: rgb(250, 250, 250) !important;
