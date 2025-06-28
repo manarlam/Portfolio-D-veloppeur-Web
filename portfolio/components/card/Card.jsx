@@ -46,19 +46,17 @@ function Cards(props) {
 
         <div className="mt-auto">
           <Button variant="primary" href={props.ghLink} target="_blank">
-            <BsGithub /> &nbsp;
-            {props.isBlog ? "Blog" : "GitHub"}
+            <BsGithub /> &nbsp; GitHub
           </Button>
 
-          {!props.isBlog && props.demoLink && (
+          {props.demoLink && (
             <Button
               variant="primary"
               href={props.demoLink}
               target="_blank"
               style={{ marginLeft: "10px" }}
             >
-              <CgWebsite /> &nbsp;
-              {"Demo"}
+              <CgWebsite /> &nbsp; Demo
             </Button>
           )}
         </div>
